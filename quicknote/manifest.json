@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Quick Note",
+    "short_name" : "Quick Note",
+    "version": "1",
+    "description": "Store quick note while browsing.",
+    "author": {
+      "name": "Soumyadip",
+      "email": "developer.soumyadip@gmail.com"
+     },
+    "browser_action": {
+      
+      "default_popup": "index.html"
+    },
+    "permissions": [
+        "storage",
+        "activeTab"
+      ],
+    "icons": { 
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png" 
+    }  
+  }
